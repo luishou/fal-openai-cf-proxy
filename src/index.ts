@@ -102,9 +102,8 @@ const SYSTEM_PROMPT_LIMIT = 4800;
 
 const FAL_SUPPORTED_MODELS = [
 	"anthropic/claude-3.7-sonnet",
-	"openai/gpt-4o-mini",
-	"openai/gpt-4o",
-	"deepseek/deepseek-r1"
+	"openai/o3",
+	"openai/gpt-4o"
 ] as const; // Use 'as const' for stricter type checking
 
 // Helper function to get owner from model ID
